@@ -1,4 +1,4 @@
-package bucklb.soapserver;
+package hello;
 
 import org.springframework.boot.SpringApplication;
 
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 // Let Spring take the strain for restful aspect
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan(basePackages = "bucklb.soapserver")
+@ComponentScan(basePackages = "hello")
 public class RestServerApplication {
 
 	// This is about as much as seems to be needed to get things moving.
